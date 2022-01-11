@@ -1,7 +1,12 @@
 {
   "name": "sveltekit-test-app",
   "version": "0.0.1",
+  "engines": {
+      "node": "16.x",
+      "npm": "8.x"
+  },
   "scripts": {
+    "start": "node build/index.js",
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
