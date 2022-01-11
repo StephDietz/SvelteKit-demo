@@ -2,8 +2,8 @@
   "name": "sveltekit-test-app",
   "version": "0.0.1",
   "engines": {
-      "node": "16.x",
-      "npm": "8.x"
+      "node": "17.0.1",
+      "npm": "8.1.0"
   },
   "scripts": {
     "start": "node build/index.js",
